@@ -45,4 +45,19 @@ def get_gss_happy():
     return the_bunch
 
 
+def get_gss_year():
+    target_names = ['1994', '1996', '1998', '2000', '2002', '2004', '2006', '2008', '2010', '2012', '2014', '2016']
+    descr = "Year the survey was taken"
+    the_bunch = get_gss_bunch1('year', target_names, descr)
 
+    return the_bunch
+
+
+'''gss_year = csv_to_dataframe.get_gss_year()
+
+
+a = gss_year.target
+b = np.bincount(a)
+print(b)
+c = gss_year.target_names
+#list(zip(c, b))'''
