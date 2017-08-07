@@ -5,7 +5,7 @@ import bunch
 
 
 def get_gss():
-    gss_df = pd.read_csv('C:/Users/Maisha/Dropbox/MB_dev/Python/python_gss/Extract1_csv.csv')
+    gss_df = pd.read_csv('C:/Users/Maisha/Dropbox/MB_dev/Python/python_gss/extract-commas.csv')
     return gss_df
 
 
